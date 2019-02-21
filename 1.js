@@ -1,21 +1,26 @@
-let age = Number(prompt("Enter your age", ""));
-let name = prompt("Enter your name", "");
+//let n = Number(prompt("Enter your number", ""));
 
 
-if(age< 18){
-	alert("You are not allowed to visit this website.")
-}
-    else if ( age>=18 && age<=22){
-let userAnswer=	confirm( "Are you sure you want to continue?")
+//function Factorial(n){
+	
+//	 return  (n*(n-1)) 
+//	}
 
-	if(userAnswer==true){
-		alert('Welcome,'+ name+'.')
-	}else{
-            alert("You are not allowed to visit this website.")}
+let a = {
+    x: 10, 
+    y: 20
+}; 
+
+let b = a; 
+b.x = 20; 
+a.x += 2 
+
+console.log(a.x)
 
 
-    } else{
-	         alert('Welcome,'+ name+'.')
-     }
 
-
+//if(n==1||n==0){
+//	alert(1)
+//}
+//	console.log(n*(n-1));
+//}
